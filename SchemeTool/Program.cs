@@ -14,7 +14,7 @@ namespace SchemeTool
         static void Main(string[] args)
         {
             // Load database
-            using (Stream stream = File.OpenRead(".\\GameData\\Formats.dat"))
+            using (Stream stream = File.OpenRead(".\\GameData\\new_Formats.dat"))
             {
                 GameRes.FormatCatalog.Instance.DeserializeScheme(stream);
             }
